@@ -1,0 +1,10 @@
+POST http://localhost:3000/api/pagos
+Content-Type: application/json
+
+{
+  "pedido_id": 3,
+  "monto": 100,
+  "metodo_pago": "efectivo",
+  "referencia": "PRUEBA-EXCESO",
+  "observaciones": "Prueba de validación de saldo"
+}
